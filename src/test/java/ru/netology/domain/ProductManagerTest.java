@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 
 public class ProductManagerTest {
     ProductManager manager = new ProductManager();
-    Book first = new Book(100, "Изучаем Java", 1500, "К.Сьерра, Б.Бейтс");
-    Book second = new Book(101, "Совершенный код", 1000, "С.Макконнелл");
-    Smartphone third = new Smartphone(102, "Apple iPhone 13 Pro", 100_000, "Apple, Inc.");
-    Smartphone fourth = new Smartphone(103, "Apple iPad Air 4", 80_000, "Apple, Inc.");
+    Product first = new Book(100, "Изучаем Java", 1500, "К.Сьерра, Б.Бейтс");
+    Product second = new Book(101, "Совершенный код", 1000, "С.Макконнелл");
+    Product third = new Smartphone(102, "Apple iPhone 13 Pro", 100_000, "Apple, Inc.");
+    Product fourth = new Smartphone(103, "Apple iPad Air 4", 80_000, "Apple, Inc.");
 
 
     @Test
